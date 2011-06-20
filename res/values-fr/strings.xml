@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prefs_start">Départ</string>
+    <string name="prefs_end">Fin</string>
+    <string name="prefs_hstart">Heure Départ</string>
+    <string name="prefs_hend">Heure Fin</string>
+    <string name="prefs_unit_name">Nom des Unités</string>
+    <string name="prefs_unit_choice">Choix des Unités</string>
+    <string name="prefs_short_on">Unités courtes</string>
+    <string name="prefs_short_off">Unités longues</string>
+    <string name="menu_settings">Reglages</string>
+    
+    <string name="month">Mois</string>
+    <string name="year">An</string>
+    <string name="day">Jour</string>
+    <string name="week">Semaine</string>
+    <string name="hour">Heure</string>
+    <string name="minute">Minute</string>
+    <string name="second">Seconde</string>
+    <string name="millisecond">Milliseconde</string>
+    
+    <string name="month_small">m</string>
+    <string name="year_small">an</string>
+    <string name="day_small">jr</string>
+    <string name="week_small">sem</string>
+    <string name="hour_small">hr</string>
+    <string name="minute_small">min</string>
+    <string name="second_small">s</string>
+</resources>

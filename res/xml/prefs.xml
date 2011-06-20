@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:key="@string/app_name">
+  <org.bostonandroid.datepreference.DatePreference
+      android:title="@string/prefs_start" android:key="start" android:defaultValue="2010.09.20"/>
+  <TimePickerPreference android:title="@string/prefs_hstart" android:key="hstart" android:defaultValue="09:00" />
+  <org.bostonandroid.datepreference.DatePreference
+      android:title="@string/prefs_end" android:key="end" android:defaultValue="2011.05.20"/>
+  <TimePickerPreference
+   android:title="@string/prefs_hend" android:key="hend" android:defaultValue="19:00"/>
+  <CheckBoxPreference android:summaryOff="@string/prefs_short_off" android:summaryOn="@string/prefs_short_on" android:key="short" android:title="@string/prefs_unit_name"></CheckBoxPreference>
+  <PreferenceScreen android:key="units" android:title="@string/prefs_unit_choice">
+      <CheckBoxPreference android:title="@string/year" android:key="year_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/month" android:key="month_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/week" android:key="week_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/day" android:key="day_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/hour" android:key="hour_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/minute" android:key="minute_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/second" android:key="second_enable" android:defaultValue="true"></CheckBoxPreference>
+      <CheckBoxPreference android:title="@string/millisecond" android:key="millisecond_enable" android:defaultValue="true"></CheckBoxPreference>
+  </PreferenceScreen>
+</PreferenceScreen>

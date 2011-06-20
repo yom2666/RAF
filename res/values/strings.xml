@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainScreen!</string>
+    <string name="app_name">RAF</string>
+    <string name="prefs_start">Start</string>
+    <string name="prefs_end">End</string>
+    <string name="prefs_hstart">Start Hour</string>
+    <string name="prefs_hend">End Hour</string>
+    <string name="prefs_unit_name">Units name</string>
+    <string name="prefs_unit_choice">Units choice</string>
+    <string name="prefs_short_on">Short units name</string>
+    <string name="prefs_short_off">Long units name</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="millisecond">Millisecond</string>
+    
+    <string name="month_small">Mth</string>
+    <string name="year_small">yr</string>
+    <string name="day_small">d</string>
+    <string name="week_small">wk</string>
+    <string name="hour_small">hr</string>
+    <string name="minute_small">min</string>
+    <string name="second_small">s</string>
+</resources>
