@@ -227,7 +227,15 @@ public class MainScreen extends RoboActivity implements OnItemClickListener{
 				public int compare(PctWrapper object1, PctWrapper object2) {
 					if(object1 == null) return -1;
 					if(object2 == null) return 1;
-					return -object1.get(KEY_PCT).compareTo(object2.get(KEY_PCT));
+					String pct1 = object1.get(KEY_PCT);
+					String pct2 = object2.get(KEY_PCT);
+					Double d1 = 0d;
+					Double d2 = 0d;
+					try {
+						d1 = df.parse(pct1).doubleValue();
+						d2 = df.parse(pct2).doubleValue();
+					} catch (ParseException e) {}
+					return -d1.compareTo(d2);
 				}
 			};
 			long start = dates[0].longValue();
